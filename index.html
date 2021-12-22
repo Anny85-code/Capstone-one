@@ -19,8 +19,25 @@
 <body>
     <!-- header-section -->
 <header class="main-header-section">
+  <nav class="nav-bar1">
+    
+  </nav>
     <nav class="nav-bar">
-      <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+      <div class="mobile-menu"><i id="fa" class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
+      <ul class="desktop-nav">
+        <div class="logo-wrapper">
+          <img src="assets/image/logo-for-capstone.png" class="Nig-logo" alt="Nigeria-coat-of-arm-logo">
+          <ul class="logo">
+          <li id="ils">ILS Conference on <br> Cybersecurity 2021</li>
+          </ul>
+     </div>
+        <li><a id="about" href="">About</a></li>
+        <li><a href="">Program</a></li>
+        <li><a href="">Join</a></li>
+        <li><a href="">Sponsor</a></li>
+        <li><a href="">News</a></li>
+        <div class="Ils">ILS Conference</div>
+    </ul>
     </nav>
     <div class="header-body">
     <p class="header-text">"Hello! Compatriots"</p>
@@ -34,17 +51,30 @@
     <div class="date-container">
         <ul class="header-date">
             <li><i class="fa fa-calendar-check-o" aria-hidden="true"></i></li>
-            <li>2021.12.7(TUE) ~ 9(THU) (GMT +1)</li>
+            <li class="date">2021.12.7(TUE) ~ 9(THU) (GMT +1)</li>
         </ul>
     </div>
     <p class="address-text">@ Zeus paradise hotel, 1 Domenico Gitto, off Mabushi-Jabi Road, Mabushi Abuja.</p>
 </div>
+
+<aside class="nav-menu">
+  <button class="aside-close">X</button>
+  <ul class="mobile-nav">
+    <li><a href="">Programs</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Join</a></li>
+    <li><a href="">Sponsor</a></li>
+    <li><a href="">News</a></li>
+  </ul>
+</aside>
+
 </header>
 <!-- end-of-header-section -->
 <!-- events -->
 <section>
     <div class="container">
         <p class="main-program">Main Program</p>
+        <div class="container2">
         <div class="property">
           <ul class="sub-property">
               <li><img src="assets/image/registration-icon.png" class="property-img" alt="registration-icon"></li>
@@ -87,12 +117,16 @@
           <div>
               <button class="btn">Join Cybersecurity Summit 2021</button>
           </div>
+        </div>
+        <p class="see-program">SEE THE WHOLE PROGRAM</p>
+        <hr class="seeln">
     </div>
 </section>
   <!-- end-of-event-section -->
   <section>
       <div class="speakers-container">
           <p class="featured-text">Featured Speakers</p>
+          <div class="speaker-container2">
           <div class="speaker-property">
               <div>
               <img src="assets/image/checker-img.jpg" class="checker-image" alt="checker-image">
@@ -101,7 +135,7 @@
             <ul>
                 <li class="name speaker-list">Mary Beth Leonard</li>
                 <li class="title speaker-list">Us Ambassador to Nigeria</li>
-                <li class="others speaker-list">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, qui!</li>
+                <li class="others speaker-list">Professor of Criminology, Harvard. Chairman African Security council.</li>
             </ul>
           </div>
 
@@ -113,9 +147,57 @@
           <ul>
               <li class="name speaker-list">Micheal Anyanwu</li>
               <li class="title speaker-list">MD/CEO, DataSixth Security Consulting</li>
-              <li class="others speaker-list">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, qui!</li>
+              <li class="others speaker-list">Level 10 Analyst with several years of experience in Cybersecurity and other related fields.</li>
           </ul>
         </div>
+
+        <div class="speaker-property desktop-speaker">
+          <div>
+          <img src="assets/image/checker-img.jpg" class="checker-image" alt="checker-image">
+          <img src="assets/image/speaker-3.jpeg" class="speaker-image" alt="speaker-3-image">
+        </div>
+        <ul>
+            <li class="name speaker-list">Anand Ramaswamy</li>
+            <li class="title speaker-list">Guest Speaker(Facilitator)</li>
+            <li class="others speaker-list">International Computer Hacking and Intellectual Property Attorney Advisor(ICHIP) for Africa. Us Mission to the Africa Union.</li>
+        </ul>
+      </div>
+
+      <div class="speaker-property desktop-speaker">
+        <div>
+        <img src="assets/image/checker-img.jpg" class="checker-image" alt="checker-image">
+        <img src="assets/image/speaker-4.jpeg" class="speaker-image" alt="speaker-4-image">
+      </div>
+      <ul>
+          <li class="name speaker-list">Confidence Staveley</li>
+          <li class="title speaker-list">CEO, Cybersafe Foundation</li>
+          <li class="others speaker-list">Cybersecurity Evangelist | Cybersecurity Woman of the Year 2021 | IFSEC Global Influencers in Security $ Fire 2021.</li>
+      </ul>
+    </div>
+
+    <div class="speaker-property desktop-speaker">
+      <div>
+      <img src="assets/image/checker-img.jpg" class="checker-image" alt="checker-image">
+      <img src="assets/image/speaker-5.jpeg" class="speaker-image" alt="speaker-5-image">
+    </div>
+    <ul>
+        <li class="name speaker-list">Oluseye Banjoko</li>
+        <li class="title speaker-list">Partner, CLP legal</li>
+        <li class="others speaker-list">Professor Law and Criminology, years of experience in internal relation and Cybersecurity.</li>
+    </ul>
+  </div>
+
+  <div class="speaker-property desktop-speaker">
+    <div>
+    <img src="assets/image/checker-img.jpg" class="checker-image" alt="checker-image">
+    <img src="assets/image/speaker-6.jpeg" class="speaker-image" alt="speaker-6-image">
+  </div>
+  <ul>
+      <li class="name speaker-list">Tanja Hills</li>
+      <li class="title speaker-list">Us Ambassador to Nigeria</li>
+      <li class="others speaker-list">International Computer Hacking and Intellectual Property Attorney Advisor(ICHIP) for Africa. Us Embassey, Nigeria.</li>
+  </ul>
+</div>
 
         <div class="more-wrapper">
             <ul class="more">
@@ -124,10 +206,30 @@
             </ul>
         </div>
 
-
       </div>
+    </div>
 
   </section>
+
+  <div class="more-wrapper2">
+    <p>Partners</p>
+    <ul class="more">
+        <li id="nitda">NITDA</li>
+        <li id="google">Google</li>
+        <li id="oracle">Oracle</li>
+        <li id="checkpiont">CheckPoint</li>
+        <li id="hauwei">HUAWEI</li>
+    </ul>
+</div>
+
+<div class="footer">
+  <ul class="logo-stake">
+      <li><i class="fa fa-shekel" aria-hidden="true"></i></li>
+      <li>Senate Legislative Stakeholders</li>
+  </ul>
+ <p>© Copyright 2021 Senate Legislative Stakeholders Conference on Cybersecurity</p> 
+</div>
+
 </body>
 <script src="assets/js/app.js"></script>
 </html>

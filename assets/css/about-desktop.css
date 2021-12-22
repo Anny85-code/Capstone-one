@@ -1,0 +1,387 @@
+.main-header-section {
+    background-image: url("../../assets/image/canvas-1.jpeg");
+    background-size: cover;
+    background-color: #fff;
+    padding-bottom: 80px;
+    width: 100%;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+
+  .logo-wrapper1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 20px 0 20px;
+  }
+  
+  .logo-wrapper1 > ul {
+    padding-left: 5px;
+  }
+  
+  #ils1 {
+    font-size: 12px;
+    font-family: 'cocogoose', sans-serif;
+    color: #635d5d;
+    font-weight: 200;
+    margin-top: 0;
+  }
+  
+  .Ils1 {
+    margin-top: 10px;
+    border: 2px solid #ec5242;
+    height: 18px;
+    width: 120px;
+    padding: 10px;
+    color: #ec5242;
+  }
+  
+  
+  .header-text {
+    color: #ec5242;
+    margin-bottom: 0;
+    font-family: 'lato', sans-serif;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .header-main-text {
+    color: #ec5242;
+    font-family:  'cocogoose', sans-serif;
+    font-weight: 900;
+    text-align: center;
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .desktop-nav img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  body, html {
+    margin: 0;
+  }
+    
+  .desktop-nav {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 60px;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding-right: 60px;
+    padding-left: 80px;
+  }
+  
+  .desktop-nav li {
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: 'cocogoose', sans-serif;
+    color: #635d5d;
+    font-weight: 100;
+  }
+  
+  #about {
+    color: #ec5242;
+  }
+  
+  .desktop-nav li a {
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .text-logo > img {
+    height: 50px;
+    width: 50px;
+  }
+    
+  .text-logo {
+    padding: 0 20px 0 20px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+    
+  #cyber-logo {
+    margin-top: 150px;
+    margin-left: 130px;
+  }
+  
+  .ict-text {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #fff;
+    width: 800px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+    
+  .ict-text p {
+    margin: 0px 10px 0 10px;
+    font-family: 'lato', sans-serif;
+    line-height: 25px;
+    color: #272a31;
+  }
+  
+  .contact-text {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'cocogoose', sans-serif;
+    color: #635d5d;
+    font-weight: 300;
+  }
+
+  .hr {
+    width: 150px;
+  }
+
+  .Nig-logo {
+      height: 60px;
+      width: 60px;
+  }
+
+  .logo-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 0 20px 0 20px;
+      box-sizing: border-box;
+      border: 1px solid #d3d3d3;
+      padding: 0 20px 0 20px;
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .logo-wrapper > ul {
+    padding-left: 0;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo > li {
+    margin-left: 10px;
+    text-align: left;
+  }
+  
+  #ils {
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: 'cocogoose', sans-serif;
+    color: #635d5d;
+    font-weight: 400;
+  }
+
+  small {
+     border: 1px solid #000;
+     font-family: 'lato', sans-serif;
+     color: #635d5d;
+  }
+
+  
+  ul {
+    list-style-type: none;
+  }
+    
+  .main-program::after {
+    content: "";
+    display: block;
+    width: 70px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #ec5242;
+  }
+    
+  .main-program {
+    margin: 0;
+    padding: 10px;
+    color: #635d5d;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'lato', sans-serif;
+   }
+    
+  .container {
+    text-align: center;
+    background-color: #fff;
+    margin-top: 0;
+    padding-bottom: 50px;
+  }
+  
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+    
+  .property {
+    display: grid;
+    padding: 0;
+    height: 300px;
+  }
+    
+  .sub-property img {
+    height: 40px;
+    width: 40px;
+    align-items: flex-start;
+    margin-left: -5px;
+    color: #d3d3d3;
+  }
+    
+  .sub-property {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 40px 10px 10px 10px;
+    background-color: #635d5d;
+    height: 300px;
+    width: fit-content;
+  }
+  
+  .property-text {
+    text-align: center;
+    color: #b3b3b3;
+    font-family: 'lato', sans-serif;
+  }
+    
+  .property-letter {
+    text-align: center;
+    margin: 10px;
+    color: #ec5242;
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: none;
+  }
+  
+  .see-program {
+    color: #b3b3b3;
+    font-size: 15px;
+    font-family: 'lato', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  
+  .seeln {
+    width: 200px;
+    color: #b3b3b3;
+  }
+  
+  .featured-text {
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'cocogoose', sans-serif;
+    font-weight: 500;
+    color: #635d5d;
+    text-align: center;
+  }
+  
+  .featured-text::after {
+    content: "";
+    display: block;
+    width: 70px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #ec5242;
+  }
+    
+  .container {
+    text-align: center;
+    background-color: #fff;
+    margin-top: 0;
+    padding-bottom: 50px;
+  }
+  
+  .gallery-container {
+    padding-bottom: 50px;
+    border-top: 1px solid #635d5d;
+  }
+
+
+  .gallery-text {
+    font-family: 'cocogoose', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    color: #635d5d;
+    text-align: center;
+  }
+
+  .image-text {
+    font-family: 'cocogoose', sans-serif;
+    color: #d3d3d3;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .event1 {
+    background-image: linear-gradient(to right, rgba(238, 82, 60, 0.65), rgba(95, 54, 49, 0.65)), url("../../assets/image/senate_3-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+  }
+  
+  .event2 {
+    background-image: linear-gradient(to right, rgba(238, 82, 60, 0.65), rgba(238, 82, 60, 0.65)), url("../../assets/image/senate-capstone.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+  }
+
+  .event-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+  }
+  
+  .more-wrapper {
+      display: none;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 20px;
+    padding: 50px 200px 50px 200px;
+    background-color: #272a31;
+  }
+  
+  .logo-stake {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'lato', sans-serif;
+    font-weight: bolder;
+    color: #d3d3d3;
+  }
+  
+  .footer > p {
+    margin-top: 25px;
+    font-family: 'lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #d3d3d3;
+  }
