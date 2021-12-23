@@ -24,7 +24,8 @@ moreWrapper.addEventListener("click", function () {
   for (let i = 0; i < hiddenSpeakers.length; i += 1) {
     hiddenSpeakers[i].classList.toggle('mob-hidden');
   }
-})
+});
+
 function closeLinks() {
   
   getSideBar.style.visibility = "hidden";

@@ -7,7 +7,7 @@ This is my first capstone project in Microverse, it is a Conference website!
 ![screencapture-127-0-0-1-5500-index-html-2021-12-23-09_56_05](https://user-images.githubusercontent.com/87186552/147228339-414c3f56-0f6b-4edf-8190-a5633719c66e.png)
 ![capstone-screenshot-mobile](https://user-images.githubusercontent.com/87186552/147228409-116a2acd-6130-48df-9008-44407be00612.png)
 
-This project is for all screnn sizes, mobile and desktop views.
+This project is for all screen sizes, mobile and desktop views.
 
 ## Built With
 
@@ -26,13 +26,8 @@ This project is for all screnn sizes, mobile and desktop views.
 
  GitHub: [@Anny85-code](https://github.com/Anny85-code)
 
-Twitter: @Annyudo8
+- Twitter: @Annyudo8
 
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shoira-tashpulatova-bab4a7122/)
-
-👤 **Shoira**
-
-- GitHub: [@shoirata](https://github.com/shoirata)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/aniekan-udo-665b65213/)
 
 
