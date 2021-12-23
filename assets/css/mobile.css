@@ -10,6 +10,10 @@
   display: none;
 }
 
+.nav-bar1 {
+  display: none;
+}
+
 /* menu-bar */
 .nav-menu {
   position: fixed;
@@ -292,9 +296,9 @@ ul {
   margin: 20px;
 }
 
-.desktop-speaker {
-  display: none;
-}
+/* .desktop-speaker {
+  visibility: hidden;
+} */
 
 .speaker-property > ul{
   padding-left: 20px;

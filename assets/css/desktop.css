@@ -6,6 +6,26 @@
   width: 100%;
 }
 
+.nav-bar1 {
+  background-color: #272a31;
+  height: 30px;
+}
+
+.desktop-upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  color: #b8b0b0;
+  margin-top: 0;
+  font-family: 'lato', sans-serif;
+}
+
+.desktop-upper > li {
+  margin-right: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .mobile-menu {
   display: none;
 }
@@ -272,7 +292,6 @@ ul {
   border-bottom: 2px solid #ec5242;
 }
   
-
 .checker-image {
   width: 60px;
   position: absolute;
@@ -324,6 +343,7 @@ ul {
   font-size: 15px;
   font-weight: 600;
   color: #635d5d;
+  height: 80px;
 }
 
 .title::after {

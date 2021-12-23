@@ -5,6 +5,10 @@
     padding-bottom: 40px;
     width: 100%;
   }
+
+  .nav-bar1 {
+    display: none;
+  }
   
   .desktop-nav {
     display: none;

@@ -20,7 +20,13 @@
     <!-- header-section -->
 <header class="main-header-section">
   <nav class="nav-bar1">
-    
+    <ul class="desktop-upper">
+      <li><i class="fa fa-facebook"></i></li>
+      <li><i class="fa fa-twitter"></i></li>
+      <li>English</li>
+      <li>My Page</li>
+      <li>Logout</li>
+    </ul>
   </nav>
     <nav class="nav-bar">
       <div class="mobile-menu"><i id="fa" class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
@@ -31,7 +37,7 @@
           <li id="ils">ILS Conference on <br> Cybersecurity 2021</li>
           </ul>
      </div>
-        <li><a id="about" href="">About</a></li>
+        <li><a id="about" href="about.html">About</a></li>
         <li><a href="">Program</a></li>
         <li><a href="">Join</a></li>
         <li><a href="">Sponsor</a></li>
@@ -60,8 +66,8 @@
 <aside class="nav-menu">
   <button class="aside-close">X</button>
   <ul class="mobile-nav">
-    <li><a href="">Programs</a></li>
-    <li><a href="">About</a></li>
+    <li><a href="#main-event">Programs</a></li>
+    <li><a href="about.html">About</a></li>
     <li><a href="">Join</a></li>
     <li><a href="">Sponsor</a></li>
     <li><a href="">News</a></li>
@@ -72,7 +78,7 @@
 <!-- end-of-header-section -->
 <!-- events -->
 <section>
-    <div class="container">
+    <div class="container" id="main-event">
         <p class="main-program">Main Program</p>
         <div class="container2">
         <div class="property">
@@ -127,86 +133,17 @@
       <div class="speakers-container">
           <p class="featured-text">Featured Speakers</p>
           <div class="speaker-container2">
-          <div class="speaker-property">
-              <div>
-              <img src="assets/image/checker-img.jpg" class="checker-image" alt="checker-image">
-              <img src="assets/image/speaker-1.jpeg" class="speaker-image" alt="speaker-1-image">
-            </div>
-            <ul>
-                <li class="name speaker-list">Mary Beth Leonard</li>
-                <li class="title speaker-list">Us Ambassador to Nigeria</li>
-                <li class="others speaker-list">Professor of Criminology, Harvard. Chairman African Security council.</li>
-            </ul>
-          </div>
-
-          <div class="speaker-property">
-            <div>
-            <img src="assets/image/checker-img.jpg" class="checker-image" alt="checker-image">
-            <img src="assets/image/speaker-2.jpeg" class="speaker-image" alt="speaker-2-image">
-          </div>
-          <ul>
-              <li class="name speaker-list">Micheal Anyanwu</li>
-              <li class="title speaker-list">MD/CEO, DataSixth Security Consulting</li>
-              <li class="others speaker-list">Level 10 Analyst with several years of experience in Cybersecurity and other related fields.</li>
-          </ul>
-        </div>
-
-        <div class="speaker-property desktop-speaker">
-          <div>
-          <img src="assets/image/checker-img.jpg" class="checker-image" alt="checker-image">
-          <img src="assets/image/speaker-3.jpeg" class="speaker-image" alt="speaker-3-image">
-        </div>
-        <ul>
-            <li class="name speaker-list">Anand Ramaswamy</li>
-            <li class="title speaker-list">Guest Speaker(Facilitator)</li>
-            <li class="others speaker-list">International Computer Hacking and Intellectual Property Attorney Advisor(ICHIP) for Africa. Us Mission to the Africa Union.</li>
-        </ul>
-      </div>
-
-      <div class="speaker-property desktop-speaker">
-        <div>
-        <img src="assets/image/checker-img.jpg" class="checker-image" alt="checker-image">
-        <img src="assets/image/speaker-4.jpeg" class="speaker-image" alt="speaker-4-image">
-      </div>
-      <ul>
-          <li class="name speaker-list">Confidence Staveley</li>
-          <li class="title speaker-list">CEO, Cybersafe Foundation</li>
-          <li class="others speaker-list">Cybersecurity Evangelist | Cybersecurity Woman of the Year 2021 | IFSEC Global Influencers in Security $ Fire 2021.</li>
-      </ul>
-    </div>
-
-    <div class="speaker-property desktop-speaker">
-      <div>
-      <img src="assets/image/checker-img.jpg" class="checker-image" alt="checker-image">
-      <img src="assets/image/speaker-5.jpeg" class="speaker-image" alt="speaker-5-image">
-    </div>
-    <ul>
-        <li class="name speaker-list">Oluseye Banjoko</li>
-        <li class="title speaker-list">Partner, CLP legal</li>
-        <li class="others speaker-list">Professor Law and Criminology, years of experience in internal relation and Cybersecurity.</li>
-    </ul>
-  </div>
-
-  <div class="speaker-property desktop-speaker">
-    <div>
-    <img src="assets/image/checker-img.jpg" class="checker-image" alt="checker-image">
-    <img src="assets/image/speaker-6.jpeg" class="speaker-image" alt="speaker-6-image">
-  </div>
-  <ul>
-      <li class="name speaker-list">Tanja Hills</li>
-      <li class="title speaker-list">Us Ambassador to Nigeria</li>
-      <li class="others speaker-list">International Computer Hacking and Intellectual Property Attorney Advisor(ICHIP) for Africa. Us Embassey, Nigeria.</li>
-  </ul>
+          <!-- speakers displayed dynamically -->
 </div>
 
         <div class="more-wrapper">
             <ul class="more">
-                <li>More</li>
+                <li class="more-btn">More</li>
                 <li><i id="fas" class="fa fa-chevron-down" aria-hidden="true"></i></li>
             </ul>
         </div>
 
-      </div>
+      
     </div>
 
   </section>

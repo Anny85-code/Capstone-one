@@ -1,75 +1,49 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capstone Project 1
 
-> One paragraph statement about the project.
+This is my first capstone project in Microverse, it is a Conference website!
 
-![screenshot](./app_screenshot.png)
+![screencapture-127-0-0-1-5500-index-html-2021-12-23-09_56_05](https://user-images.githubusercontent.com/87186552/147228339-414c3f56-0f6b-4edf-8190-a5633719c66e.png)
+![capstone-screenshot-mobile](https://user-images.githubusercontent.com/87186552/147228409-116a2acd-6130-48df-9008-44407be00612.png)
 
-Additional description about the project and its features.
+This project is for all screnn sizes, mobile and desktop views.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JAVASCRIPT
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://www.loom.com/share/3bc9d0dc05fc430ebbe3dd4d3e9f1352)
 
 
-## Getting Started
+👤 Author
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+GitHub: @Anny85-code
 
+Twitter: @Annyudo8
 
-To get a local copy up and running follow these simple example steps.
+LinkedIn: LinkedIn
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
+🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
-## Show your support
-
+Show your support
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+Acknowledgments
+- To my coding partners
+- Microverse Team
+- Standup call team
+- Morning call Team
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Credits 
+Cindy Shin in Behance.
 
 ## 📝 License
 
