@@ -296,10 +296,6 @@ ul {
   margin: 20px;
 }
 
-/* .desktop-speaker {
-  visibility: hidden;
-} */
-
 .speaker-property > ul{
   padding-left: 20px;
 }
@@ -382,5 +378,9 @@ ul {
 }
 
 .footer {
+  display: none;
+}
+
+.mob-hidden{
   display: none;
 }

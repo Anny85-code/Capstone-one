@@ -16,17 +16,25 @@ This project is for all screnn sizes, mobile and desktop views.
 - JAVASCRIPT
 
 ## Live Demo
+[Live Demo Link](https://anny85-code.github.io/Capstone-one/)
 
-[Live Demo Link](https://www.loom.com/share/3bc9d0dc05fc430ebbe3dd4d3e9f1352)
+## Documentation link
+[Documentation](https://www.loom.com/share/3bc9d0dc05fc430ebbe3dd4d3e9f1352)
 
 
 👤 Author
 
-GitHub: @Anny85-code
+ GitHub: [@Anny85-code](https://github.com/Anny85-code)
 
 Twitter: @Annyudo8
 
-LinkedIn: LinkedIn
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shoira-tashpulatova-bab4a7122/)
+
+👤 **Shoira**
+
+- GitHub: [@shoirata](https://github.com/shoirata)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aniekan-udo-665b65213/)
+
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
