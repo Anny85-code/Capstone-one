@@ -356,13 +356,38 @@ ul {
   border-radius: 2px;
 }
 
+.less-wrapper {
+  height: 60px;
+  border: 1px solid #d3d3d3;
+  margin-right: 30px;
+  margin-left: 30px;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.more1 {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  font-family: 'lato', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #272a31;
+}
+
+
 .more-wrapper2 {
   display: none;
 }
 
 .more {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  margin-top: -10px;
   font-family: 'lato', sans-serif;
   font-size: 20px;
   font-weight: 800;
@@ -370,6 +395,10 @@ ul {
 }
 
 .more > li {
+  margin: 10px;
+}
+
+.more1 > li {
   margin: 10px;
 }
 
