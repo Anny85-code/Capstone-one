@@ -2,34 +2,49 @@ const navMenu = document.getElementById("fa");
 const getSideBar = document.querySelector(".nav-menu");
 const closeBtn = document.querySelector(".aside-close");
 const navLinks = document.querySelectorAll(".mobile-nav li");
-const moreWrapper  = document.querySelector(".more-wrapper")
+const moreWrapper  = document.querySelector(".more-wrapper");
+const lessWrapper  = document.querySelector(".less-wrapper");
 const hiddenSpeakers = document.getElementsByClassName("unhide")
 const toggleSideBar = false;
 const closeButton = false;
 const body = document.querySelector("body")
+
 navMenu.addEventListener("click", function () {
   if (toggleSideBar === false) {
     getSideBar.style.visibility = "visible";
-    body.style.overflow = 'hidden'
+    body.style.overflow = 'hidden';
   }
 });
 closeBtn.addEventListener("click", function () {
   if (closeButton === false) {
     getSideBar.style.visibility = "hidden";
-    body.style.overflow = 'auto'
+    body.style.overflow = 'auto';
   }
 });
+
+moreWrapper.style.display = 'block';
+lessWrapper.style.display = 'none';
 
 moreWrapper.addEventListener("click", function () {
   for (let i = 0; i < hiddenSpeakers.length; i += 1) {
-    hiddenSpeakers[i].classList.toggle('mob-hidden');
-  }
+    hiddenSpeakers[i].classList.remove('mob-hidden');
+   }
+   moreWrapper.style.display = 'none';
+   lessWrapper.style.display = 'block';
+});
+
+lessWrapper.addEventListener("click", function () {
+  for (let i = 0; i < hiddenSpeakers.length; i += 1) {
+    hiddenSpeakers[i].classList.add('mob-hidden');
+   }
+   lessWrapper.style.display = 'none';
+   moreWrapper.style.display = 'block'
 });
 
 function closeLinks() {
-  
   getSideBar.style.visibility = "hidden";
 }
+
 navLinks.forEach((links) => links.addEventListener("click", closeLinks));
 
 const speakers = [{

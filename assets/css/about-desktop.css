@@ -10,6 +10,10 @@
     background-color: #272a31;
     height: 30px;
   }
+
+  .nav-menu {
+    display: none;
+  }
   
   .desktop-upper {
     display: flex;
