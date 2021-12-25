@@ -373,6 +373,7 @@ ul {
   display: flex;
   justify-content: center;
   margin-top: -10px;
+  margin-left: -20px;
   font-family: 'lato', sans-serif;
   font-size: 20px;
   font-weight: 800;
@@ -387,6 +388,7 @@ ul {
 .more {
   display: flex;
   justify-content: center;
+  margin-left: -20px;
   margin-top: -10px;
   font-family: 'lato', sans-serif;
   font-size: 20px;
