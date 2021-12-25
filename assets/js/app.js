@@ -96,10 +96,10 @@ const speakers = [{
     order:'mob-hidden unhide',
 }
 ];
+
 function render(){
 let displaySpeakers = "";
 for (let i = 0; i < speakers.length; i += 1) {
-  console.log(speakers[i].order)
     displaySpeakers += `<div class="speaker-property desktop-speaker ${speakers[i].order}" >
     <div>
     <img src="${speakers[i].checkerImage}" class="checker-image" alt="checker-image">
