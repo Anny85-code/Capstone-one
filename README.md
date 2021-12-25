@@ -5,7 +5,7 @@
 This is my first capstone project in Microverse, it is a Conference website!
 
 ![screencapture-127-0-0-1-5500-index-html-2021-12-23-09_56_05](https://user-images.githubusercontent.com/87186552/147228339-414c3f56-0f6b-4edf-8190-a5633719c66e.png)
-![capstone-screenshot-mobile](https://user-images.githubusercontent.com/87186552/147228409-116a2acd-6130-48df-9008-44407be00612.png)
+![screencapture-capstone-mobile](https://user-images.githubusercontent.com/87186552/147390370-c23f1a9e-05f1-4193-b519-2ec9d9df4f44.png)
 
 This project is for all screen sizes, mobile and desktop views.
 
