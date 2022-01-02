@@ -1,5 +1,5 @@
 .main-header-section {
-  background-image: url("../../assets/image/canvas-1.jpeg");
+  background-image: url('../../assets/image/canvas-1.jpeg');
   background-size: cover;
   background-color: #fff;
   padding-bottom: 80px;
@@ -25,7 +25,7 @@
   font-size: 16px;
   backdrop-filter: blur(6px);
   mix-blend-mode: multiply;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   visibility: hidden;
 }
@@ -38,7 +38,7 @@
   margin-right: 48px;
   color: #fff;
   padding-right: 50px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background: #ec5242;
   display: flex;
   align-items: center;
@@ -71,7 +71,7 @@
 }
 /* end-of-menu-bar */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 li {
@@ -81,7 +81,7 @@ li {
 header {
   margin-top: 0;
 }
- 
+
 .fa-bars {
   margin-top: 20px;
   margin-left: 20px;
@@ -97,7 +97,7 @@ header {
 
 .header-main-text {
   color: #ec5242;
-  font-family:  'cocogoose', sans-serif;
+  font-family: 'cocogoose', sans-serif;
   font-weight: 900;
 }
 
@@ -161,12 +161,13 @@ h1 {
   color: #272a31;
 }
 
-body, html {
+body,
+html {
   margin: 0;
 }
 
 .main-program::after {
-  content: "";
+  content: '';
   display: block;
   width: 70px;
   padding-top: 5px;
@@ -176,11 +177,11 @@ body, html {
 }
 
 .main-program {
- margin: 0;
- padding: 10px;
- color: #d3d3d3;
- font-size: 22px;
- font-family: 'lato', sans-serif;
+  margin: 0;
+  padding: 10px;
+  color: #d3d3d3;
+  font-size: 22px;
+  font-family: 'lato', sans-serif;
 }
 
 .container {
@@ -263,14 +264,14 @@ ul {
 }
 
 .name {
- font-family: 'lato', sans-serif;
- font-size: 20px;
- font-weight: 800;
- font-style: none;
+  font-family: 'lato', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  font-style: none;
 }
 
 .speakers-container > p {
-  text-align: center;  
+  text-align: center;
 }
 
 .featured-text {
@@ -281,7 +282,7 @@ ul {
 }
 
 .featured-text::after {
-  content: "";
+  content: '';
   display: block;
   width: 70px;
   padding-top: 5px;
@@ -296,7 +297,7 @@ ul {
   margin: 20px;
 }
 
-.speaker-property > ul{
+.speaker-property > ul {
   padding-left: 20px;
 }
 
@@ -332,7 +333,7 @@ ul {
 }
 
 .title::after {
-  content: "";
+  content: '';
   display: block;
   width: 30px;
   padding-top: 5px;
@@ -379,7 +380,6 @@ ul {
   font-weight: 800;
   color: #272a31;
 }
-
 
 .more-wrapper2 {
   display: none;
